@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MedicoComponent } from './pages/medico/medico.component';
+import { HorarioComponent } from './pages/horario/horario.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MedicoComponent,
+    HorarioComponent
   ],
   imports: [
     BrowserModule,
